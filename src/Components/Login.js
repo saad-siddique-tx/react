@@ -13,7 +13,7 @@ function Login() {
         if(email=="admin@gmail.com" && password=="12345")
         {
             setmessage("successfull")
-            console.log(message)
+            
             history.push("/");
     
         }
